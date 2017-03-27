@@ -1,0 +1,114 @@
+html {
+  font-size: 16px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+header {
+background-color: rgba(171,8,3,1);
+  }
+
+h1 {
+  font-weight: bold;
+}
+
+p:first-of-type::first-letter{
+  font-size: 7rem;
+  font-weight: bolder;
+  color: blue;
+}
+
+p:first-line{
+  background-color: red;
+}
+
+p:hover{
+  background-color: yellow;
+  transition: all 2s cubic-bezier(.16,.86,.23,.17) 1s;
+}
+
+.hover-pop{
+
+}
+
+p:nth-child(1n+1){
+  background-color: green;
+}
+
+td:nth-child(2n+2){
+  background-color: rebeccapurple;
+}
+
+td:nth-child(2n+1){
+  background-color: rgb(32,35,112);
+  color: rgb(150,35,140);
+}
+
+nav {
+    font-size: 3rem;
+  }
+
+li {
+  list-style: circle;
+  color: blue;
+}
+
+td {
+  vertical-align: bottom;
+}
+
+tr{
+  float: left;
+}
+
+.info {
+  font-size: 5rem;
+}
+
+a:link{
+  color:blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:white;
+}
+
+.port-nav a:hover{
+  color: blue;
+}
+
+.project-list a{
+  color: rgb(255,0,0);
+  transition: all .2s cubic-bezier(.16,.86,.23,.17) .2s;
+}
+
+.project-list a:hover{
+  color: rgb(255,148,13);
+    background: rgb(255, 0, 255);
+    border-radius: 50%;
+    color: rgb(0, 255, 255);
+    /*animation: 5s ease 0s infinite pulse;*/
+    width: 50rem;
+}
+
+.project-list {
+  float: left;
+  transition: all .5s cubic-bezier(.16,.86,.23,.17) .2s;
+}
+
+.project-list:hover {
+  font-size: 6rem;
+}
+
+#h1-port {
+ color: rebeccapurple;
+}
+
+#h1-home {
+  color: rebeccapurple;
+}
+
+#projects {
+  color: green;
+}
